@@ -1,0 +1,6 @@
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Main\bin\Debug\BottleGreen.Main.exe.config
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Main\bin\Debug\BottleGreen.Main.exe
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Main\bin\Debug\BottleGreen.Main.pdb
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Main\obj\Debug\BottleGreen.Main.csprojResolveAssemblyReference.cache
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Main\obj\Debug\BottleGreen.Main.exe
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Main\obj\Debug\BottleGreen.Main.pdb
