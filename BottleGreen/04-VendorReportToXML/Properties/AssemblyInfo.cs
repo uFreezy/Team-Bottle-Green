@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BottleGreen.Main")]
+[assembly: AssemblyTitle("04-VendorReportToXML")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BottleGreen.Main")]
+[assembly: AssemblyProduct("04-VendorReportToXML")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9a14ca3f-2546-4f87-acc2-47e9c47e6017")]
+[assembly: Guid("05ad5f11-b7ea-4b8a-a09d-a10f2438cd86")]
 
 // Version information for an assembly consists of the following four values:
 //

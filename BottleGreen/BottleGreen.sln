@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottleGreen.Main", "BottleGreen.Main\BottleGreen.Main.csproj", "{3D9C424E-50EF-4C6F-AC12-DA9E39F1FCA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottleGreen.Main", "BottleGreen.Main\BottleGreen.Main.csproj", "{1DC85B7D-263F-4930-A43D-836E76B3F598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-ZipRepportsToMSSQL", "02-ZipRepportsToMSSQL\02-ZipRepportsToMSSQL.csproj", "{F6F5AB43-FE97-43C2-94AC-7CDE52C8F801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-GeneratePDFReports", "03-GeneratePDFReports\03-GeneratePDFReports.csproj", "{2D2908B0-EF50-4031-A427-5A393CE61079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-VendorReportToXML", "04-VendorReportToXML\04-VendorReportToXML.csproj", "{EAA4B48F-4BC0-4BA9-B3B3-73951344A634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-JSONReportsToMongoDB", "05-JSONReportsToMongoDB\05-JSONReportsToMongoDB.csproj", "{44D7844B-B12C-4150-B61C-EE66BE750588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-XMLToMSSQL", "06-XMLToMSSQL\06-XMLToMSSQL.csproj", "{987251D5-26B1-4D84-8569-A942CC6DA4D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-MSSQLToMySQL", "07-MSSQLToMySQL\07-MSSQLToMySQL.csproj", "{ADE4FF63-7B15-4A89-A106-F8BF1DC70615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-SQLiteAndMySQLToExcel", "08-SQLiteAndMySQLToExcel\08-SQLiteAndMySQLToExcel.csproj", "{821C46E6-BB75-4BD7-91DF-BCAFA2558855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottleGreen.Models", "BottleGreen.Models\BottleGreen.Models.csproj", "{81CD8F03-6A59-46CE-8078-C27A19107359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottleGreen.Models.MySQL", "BottleGreen.Models.MySQL\BottleGreen.Models.MySQL.csproj", "{6966DB3E-26E2-4F9D-BF2D-0FDFE363F9D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +29,46 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3D9C424E-50EF-4C6F-AC12-DA9E39F1FCA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D9C424E-50EF-4C6F-AC12-DA9E39F1FCA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D9C424E-50EF-4C6F-AC12-DA9E39F1FCA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D9C424E-50EF-4C6F-AC12-DA9E39F1FCA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC85B7D-263F-4930-A43D-836E76B3F598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC85B7D-263F-4930-A43D-836E76B3F598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC85B7D-263F-4930-A43D-836E76B3F598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC85B7D-263F-4930-A43D-836E76B3F598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F5AB43-FE97-43C2-94AC-7CDE52C8F801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F5AB43-FE97-43C2-94AC-7CDE52C8F801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F5AB43-FE97-43C2-94AC-7CDE52C8F801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F5AB43-FE97-43C2-94AC-7CDE52C8F801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2908B0-EF50-4031-A427-5A393CE61079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2908B0-EF50-4031-A427-5A393CE61079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2908B0-EF50-4031-A427-5A393CE61079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2908B0-EF50-4031-A427-5A393CE61079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA4B48F-4BC0-4BA9-B3B3-73951344A634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA4B48F-4BC0-4BA9-B3B3-73951344A634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA4B48F-4BC0-4BA9-B3B3-73951344A634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA4B48F-4BC0-4BA9-B3B3-73951344A634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D7844B-B12C-4150-B61C-EE66BE750588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D7844B-B12C-4150-B61C-EE66BE750588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D7844B-B12C-4150-B61C-EE66BE750588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D7844B-B12C-4150-B61C-EE66BE750588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987251D5-26B1-4D84-8569-A942CC6DA4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987251D5-26B1-4D84-8569-A942CC6DA4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987251D5-26B1-4D84-8569-A942CC6DA4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987251D5-26B1-4D84-8569-A942CC6DA4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE4FF63-7B15-4A89-A106-F8BF1DC70615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE4FF63-7B15-4A89-A106-F8BF1DC70615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE4FF63-7B15-4A89-A106-F8BF1DC70615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE4FF63-7B15-4A89-A106-F8BF1DC70615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821C46E6-BB75-4BD7-91DF-BCAFA2558855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821C46E6-BB75-4BD7-91DF-BCAFA2558855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821C46E6-BB75-4BD7-91DF-BCAFA2558855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821C46E6-BB75-4BD7-91DF-BCAFA2558855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81CD8F03-6A59-46CE-8078-C27A19107359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CD8F03-6A59-46CE-8078-C27A19107359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CD8F03-6A59-46CE-8078-C27A19107359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81CD8F03-6A59-46CE-8078-C27A19107359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6966DB3E-26E2-4F9D-BF2D-0FDFE363F9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6966DB3E-26E2-4F9D-BF2D-0FDFE363F9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6966DB3E-26E2-4F9D-BF2D-0FDFE363F9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6966DB3E-26E2-4F9D-BF2D-0FDFE363F9D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
