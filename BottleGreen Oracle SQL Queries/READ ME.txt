@@ -1,0 +1,4 @@
+1. Execute the CreateUser.sql script.
+2. Create new connection with the new user (BottleGreenTW). The password is 1234.
+3. Inside the new connection execute CreateAndPopulate.sql.
+4. Done.
