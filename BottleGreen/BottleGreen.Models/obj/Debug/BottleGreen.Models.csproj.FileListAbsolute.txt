@@ -1,0 +1,10 @@
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Models\bin\Debug\BottleGreen.Models.dll.config
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Models\bin\Debug\BottleGreen.Models.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Models\bin\Debug\BottleGreen.Models.pdb
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Models\bin\Debug\EntityFramework.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Models\bin\Debug\EntityFramework.xml
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Models\obj\Debug\BottleGreen.Models.csprojResolveAssemblyReference.cache
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Models\obj\Debug\BottleGreen.Models.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Models\obj\Debug\BottleGreen.Models.pdb

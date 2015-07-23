@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BottleGreenModelStoreContainer" CdmEntityContainer="BottleGreenEntities">
+    <EntitySetMapping Name="ExpensesByMonths">
+      <EntityTypeMapping TypeName="BottleGreenModel.ExpensesByMonth">
+        <MappingFragment StoreEntitySet="ExpensesByMonth">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ExpenseMonth" ColumnName="ExpenseMonth" />
+          <ScalarProperty Name="VendorId" ColumnName="VendorId" />
+          <ScalarProperty Name="Expenses" ColumnName="Expenses" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Measures">
+      <EntityTypeMapping TypeName="BottleGreenModel.Measure">
+        <MappingFragment StoreEntitySet="Measures">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Measure_Name" ColumnName="Measure Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="BottleGreenModel.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="VendorID" ColumnName="VendorID" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product Name" />
+          <ScalarProperty Name="MeasureID" ColumnName="MeasureID" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SalesReports">
+      <EntityTypeMapping TypeName="BottleGreenModel.SalesReport">
+        <MappingFragment StoreEntitySet="SalesReports">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="SupermarketId" ColumnName="SupermarketId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ActualPrice" ColumnName="ActualPrice" />
+          <ScalarProperty Name="ReportDate" ColumnName="ReportDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Supermarkets">
+      <EntityTypeMapping TypeName="BottleGreenModel.Supermarket">
+        <MappingFragment StoreEntitySet="Supermarkets">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vendors">
+      <EntityTypeMapping TypeName="BottleGreenModel.Vendor">
+        <MappingFragment StoreEntitySet="Vendors">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Vendor_Name" ColumnName="Vendor Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

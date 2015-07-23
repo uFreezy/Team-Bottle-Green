@@ -1,0 +1,13 @@
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\02-ZipRepportsToMSSQL.dll.config
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\02-ZipRepportsToMSSQL.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\02-ZipRepportsToMSSQL.pdb
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\BottleGreen.Models.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFramework.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\BottleGreen.Models.pdb
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFramework.xml
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.csprojResolveAssemblyReference.cache
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.pdb

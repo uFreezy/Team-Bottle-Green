@@ -30,8 +30,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -39,8 +48,66 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="BottleGreenContext.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BottleGreenContext.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BottleGreenContext.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BottleGreenContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BottleGreenContext.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BottleGreenContext.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpensesByMonth.cs">
+      <DependentUpon>BottleGreenContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Measure.cs">
+      <DependentUpon>BottleGreenContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <DependentUpon>BottleGreenContext.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesReport.cs">
+      <DependentUpon>BottleGreenContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Supermarket.cs">
+      <DependentUpon>BottleGreenContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Vendor.cs">
+      <DependentUpon>BottleGreenContext.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="BottleGreenContext.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>BottleGreenContext.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="BottleGreenContext.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BottleGreenContext.edmx</DependentUpon>
+      <LastGenOutput>BottleGreenContext.Context.cs</LastGenOutput>
+    </None>
+    <None Include="BottleGreenContext.edmx.diagram">
+      <DependentUpon>BottleGreenContext.edmx</DependentUpon>
+    </None>
+    <None Include="BottleGreenContext.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BottleGreenContext.edmx</DependentUpon>
+      <LastGenOutput>BottleGreenContext.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
