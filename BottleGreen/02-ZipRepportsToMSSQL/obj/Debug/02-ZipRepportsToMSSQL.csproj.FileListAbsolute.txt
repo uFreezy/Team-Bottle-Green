@@ -11,3 +11,16 @@ C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\Enti
 C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.csprojResolveAssemblyReference.cache
 C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.dll
 C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\02-ZipRepportsToMSSQL.dll.config
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\02-ZipRepportsToMSSQL.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\02-ZipRepportsToMSSQL.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\BottleGreen.Models.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFramework.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\BottleGreen.Models.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFramework.xml
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.csprojResolveAssemblyReference.cache
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.pdb

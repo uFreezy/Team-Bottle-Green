@@ -28,30 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_XmlToMssql = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btn_OracleToMssql = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_XmlToMssql
             // 
-            this.button1.Location = new System.Drawing.Point(101, 71);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "XML To MSSQL";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_XmlToMssql.Location = new System.Drawing.Point(81, 71);
+            this.btn_XmlToMssql.Name = "btn_XmlToMssql";
+            this.btn_XmlToMssql.Size = new System.Drawing.Size(113, 23);
+            this.btn_XmlToMssql.TabIndex = 1;
+            this.btn_XmlToMssql.Text = "XML To MSSQL";
+            this.btn_XmlToMssql.UseVisualStyleBackColor = true;
+            this.btn_XmlToMssql.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.btn_OracleToMssql);
+            this.groupBox1.Controls.Add(this.btn_XmlToMssql);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(202, 101);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Problem 2";
+            // 
+            // btn_OracleToMssql
+            // 
+            this.btn_OracleToMssql.Location = new System.Drawing.Point(81, 32);
+            this.btn_OracleToMssql.Name = "btn_OracleToMssql";
+            this.btn_OracleToMssql.Size = new System.Drawing.Size(112, 23);
+            this.btn_OracleToMssql.TabIndex = 0;
+            this.btn_OracleToMssql.Text = "Oracle To MSSQL";
+            this.btn_OracleToMssql.UseVisualStyleBackColor = true;
+            this.btn_OracleToMssql.Click += new System.EventHandler(this.btn_OracleToMssql_Click);
             // 
             // BottleGreen
             // 
@@ -69,8 +81,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_XmlToMssql;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btn_OracleToMssql;
     }
 }
 

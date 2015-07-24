@@ -1,0 +1,5 @@
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\03-GeneratePDFReports\bin\Debug\03-GeneratePDFReports.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\03-GeneratePDFReports\bin\Debug\03-GeneratePDFReports.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\03-GeneratePDFReports\obj\Debug\03-GeneratePDFReports.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\03-GeneratePDFReports\obj\Debug\03-GeneratePDFReports.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\03-GeneratePDFReports\obj\Debug\03-GeneratePDFReports.csprojResolveAssemblyReference.cache

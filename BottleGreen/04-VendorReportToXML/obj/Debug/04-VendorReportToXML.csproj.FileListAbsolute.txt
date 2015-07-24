@@ -1,0 +1,5 @@
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\04-VendorReportToXML.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\04-VendorReportToXML.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.csprojResolveAssemblyReference.cache

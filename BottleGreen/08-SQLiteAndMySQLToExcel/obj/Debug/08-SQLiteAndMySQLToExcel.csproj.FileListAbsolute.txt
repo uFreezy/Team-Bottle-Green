@@ -1,0 +1,4 @@
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\08-SQLiteAndMySQLToExcel\bin\Debug\08-SQLiteAndMySQLToExcel.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\08-SQLiteAndMySQLToExcel\bin\Debug\08-SQLiteAndMySQLToExcel.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\08-SQLiteAndMySQLToExcel\obj\Debug\08-SQLiteAndMySQLToExcel.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\08-SQLiteAndMySQLToExcel\obj\Debug\08-SQLiteAndMySQLToExcel.pdb

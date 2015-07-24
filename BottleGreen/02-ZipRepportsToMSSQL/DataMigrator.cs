@@ -15,7 +15,7 @@
     public class DataMigrator
     {
         private const string TempFolderForExtract = @"../../../Temp";
-        private const string ReportsFilePath = "../../../../SampleData/Sample-Sales-Reports.zip";
+        private const string ReportsFilePath = "../../../SampleData/Sample-Sales-Reports.zip";
 
         public void MigrateDataFromExcelFiles()
         {

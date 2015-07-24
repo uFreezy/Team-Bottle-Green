@@ -1,0 +1,4 @@
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\06-XMLToMSSQL.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\06-XMLToMSSQL.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.pdb

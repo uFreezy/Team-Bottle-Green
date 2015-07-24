@@ -1,0 +1,4 @@
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.MySQL\bin\Debug\BottleGreen.Models.MySQL.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.MySQL\bin\Debug\BottleGreen.Models.MySQL.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.MySQL\obj\Debug\BottleGreen.Models.MySQL.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.MySQL\obj\Debug\BottleGreen.Models.MySQL.pdb
