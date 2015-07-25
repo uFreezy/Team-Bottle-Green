@@ -53,7 +53,7 @@ namespace BottleGreen.Main
             sw.Start();
             XmltoMssql.PolulateSqlTables(fileName);
             MessageBox.Show(string.Format("Data was sucessufuly transfered from file: {0}" +
-                                          " \n It took us {1: 0.##} seconds", fileName, sw.Elapsed.TotalSeconds));
+                                          "\n It took us {1: 0.##} seconds", fileName, sw.Elapsed.TotalSeconds));
         }
 
         private void MsqlToXML_Click(object sender, EventArgs e)
