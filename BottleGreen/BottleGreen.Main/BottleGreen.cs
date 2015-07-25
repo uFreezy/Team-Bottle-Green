@@ -47,18 +47,9 @@ namespace BottleGreen.Main
             if (FD.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                  fileName = FD.FileName;
-
-                //System.IO.FileInfo File = new System.IO.FileInfo(FD.FileName);
-
-                ////OR
-
-                //System.IO.StreamReader reader = new System.IO.StreamReader(fileToOpen);
-                ////etc
             }
-
-            MessageBox.Show(fileName);
-
-            XMLToMSSQL.PolulateSqlTables(fileName);
+            XmltoMssql.PolulateSqlTables(fileName);
+            MessageBox.Show(string.Format("Data was sucessufuly transfered from file: {0} ", fileName));
         }
     }
 }

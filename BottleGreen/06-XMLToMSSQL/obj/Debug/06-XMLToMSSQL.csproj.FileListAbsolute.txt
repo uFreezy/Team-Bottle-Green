@@ -4,12 +4,9 @@ F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\bin\Debug\06-XMLToMSSQL.pdb
 F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\bin\Debug\BottleGreen.Models.dll
 F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.dll
 F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.SqlServer.dll
-F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.SqlServerCompact.dll
-F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\bin\Debug\System.Data.SqlServerCe.dll
 F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\bin\Debug\BottleGreen.Models.pdb
 F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.xml
 F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.SqlServer.xml
-F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.SqlServerCompact.xml
 F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.csprojResolveAssemblyReference.cache
 F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.dll
 F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.pdb

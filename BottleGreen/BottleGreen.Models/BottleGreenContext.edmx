@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="BottleGreenModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="BottleGreenModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="ExpensesByMonth">
           <Key>
             <PropertyRef Name="Id" />
@@ -144,8 +144,7 @@
             <End Role="SalesReports" EntitySet="SalesReports" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="BottleGreenModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -206,9 +205,9 @@
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Vendor_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
           <NavigationProperty Name="ExpensesByMonths" Relationship="Self.FK_ExpensesByMonth_Vendor" FromRole="Vendors" ToRole="ExpensesByMonth" />
           <NavigationProperty Name="Products" Relationship="Self.FK_Product_Vendor" FromRole="Vendors" ToRole="Products" />
+          <Property Name="Vendor_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
         <Association Name="FK_ExpensesByMonth_Vendor">
           <End Role="Vendors" Type="Self.Vendor" Multiplicity="0..1" />
@@ -356,8 +355,8 @@
           <EntitySetMapping Name="Vendors">
             <EntityTypeMapping TypeName="BottleGreenModel.Vendor">
               <MappingFragment StoreEntitySet="Vendors">
-                <ScalarProperty Name="ID" ColumnName="ID" />
                 <ScalarProperty Name="Vendor_Name" ColumnName="Vendor Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

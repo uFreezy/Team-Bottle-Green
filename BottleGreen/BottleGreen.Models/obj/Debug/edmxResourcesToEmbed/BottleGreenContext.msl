@@ -53,8 +53,8 @@
     <EntitySetMapping Name="Vendors">
       <EntityTypeMapping TypeName="BottleGreenModel.Vendor">
         <MappingFragment StoreEntitySet="Vendors">
-          <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Vendor_Name" ColumnName="Vendor Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

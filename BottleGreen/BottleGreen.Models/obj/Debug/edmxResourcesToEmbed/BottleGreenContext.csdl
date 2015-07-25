@@ -57,9 +57,9 @@
       <PropertyRef Name="ID" />
     </Key>
     <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Vendor_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
     <NavigationProperty Name="ExpensesByMonths" Relationship="Self.FK_ExpensesByMonth_Vendor" FromRole="Vendors" ToRole="ExpensesByMonth" />
     <NavigationProperty Name="Products" Relationship="Self.FK_Product_Vendor" FromRole="Vendors" ToRole="Products" />
+    <Property Name="Vendor_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
   </EntityType>
   <Association Name="FK_ExpensesByMonth_Vendor">
     <End Role="Vendors" Type="Self.Vendor" Multiplicity="0..1" />
