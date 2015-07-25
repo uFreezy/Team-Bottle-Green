@@ -10,3 +10,15 @@ F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.SqlSer
 F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.csprojResolveAssemblyReference.cache
 F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.dll
 F:\SoftUni\dbTeamwork\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.pdb
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\06-XMLToMSSQL\bin\Debug\06-XMLToMSSQL.dll.config
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\06-XMLToMSSQL\bin\Debug\06-XMLToMSSQL.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\06-XMLToMSSQL\bin\Debug\06-XMLToMSSQL.pdb
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\06-XMLToMSSQL\bin\Debug\BottleGreen.Models.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\06-XMLToMSSQL\bin\Debug\BottleGreen.Models.pdb
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.xml
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.csprojResolveAssemblyReference.cache
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.pdb

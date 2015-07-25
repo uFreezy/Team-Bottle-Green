@@ -91,6 +91,10 @@
       <Project>{f6f5ab43-fe97-43c2-94ac-7cde52c8f801}</Project>
       <Name>02-ZipRepportsToMSSQL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\03-GeneratePdf\03-GeneratePDF.csproj">
+      <Project>{19be847e-1ba0-410d-9d6f-9e4fb663e45b}</Project>
+      <Name>03-GeneratePDF</Name>
+    </ProjectReference>
     <ProjectReference Include="..\06-XMLToMSSQL\06-XMLToMSSQL.csproj">
       <Project>{987251d5-26b1-4d84-8569-a942cc6da4d5}</Project>
       <Name>06-XMLToMSSQL</Name>

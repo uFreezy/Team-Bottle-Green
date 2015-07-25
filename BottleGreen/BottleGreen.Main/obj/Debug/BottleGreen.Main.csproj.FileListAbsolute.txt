@@ -54,3 +54,9 @@ F:\SoftUni\dbTeamwork\BottleGreen\BottleGreen.Main\obj\Debug\BottleGreen.Main.Pr
 F:\SoftUni\dbTeamwork\BottleGreen\BottleGreen.Main\obj\Debug\BottleGreen.Main.csproj.GenerateResource.Cache
 F:\SoftUni\dbTeamwork\BottleGreen\BottleGreen.Main\bin\Debug\06-XMLToMSSQL.dll
 F:\SoftUni\dbTeamwork\BottleGreen\BottleGreen.Main\bin\Debug\06-XMLToMSSQL.pdb
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Main\bin\Debug\06-XMLToMSSQL.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Main\bin\Debug\06-XMLToMSSQL.pdb
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Main\bin\Debug\Task3.exe
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Main\bin\Debug\itextsharp.dll
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Main\bin\Debug\Task3.pdb
+C:\Users\Freezyy\Desktop\DBA-TW\BottleGreen\BottleGreen.Main\bin\Debug\itextsharp.xml
