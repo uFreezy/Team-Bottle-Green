@@ -26,8 +26,9 @@ namespace BottleGreen.Main
             sw.Start();
             var d = new DataMigrator();
             d.MigrateDataFromExcelFiles();
-            MessageBox.Show("Operation completed! It took us " + sw.Elapsed.TotalSeconds +
-                            " seconds to process your request!");
+            MessageBox.Show(
+                string.Format("Operation completed! It took us {0: 0.##} seconds to process your request!",
+                sw.Elapsed.TotalSeconds));
         }
 
         private void BottleGreen_Load(object sender, EventArgs e)
@@ -48,8 +49,16 @@ namespace BottleGreen.Main
             {
                  fileName = FD.FileName;
             }
+            var sw = new Stopwatch();
+            sw.Start();
             XmltoMssql.PolulateSqlTables(fileName);
-            MessageBox.Show(string.Format("Data was sucessufuly transfered from file: {0} ", fileName));
+            MessageBox.Show(string.Format("Data was sucessufuly transfered from file: {0}" +
+                                          " \n It took us {1: 0.##} seconds", fileName, sw.Elapsed.TotalSeconds));
+        }
+
+        private void MsqlToXML_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
