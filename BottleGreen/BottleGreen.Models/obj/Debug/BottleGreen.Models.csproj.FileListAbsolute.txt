@@ -18,3 +18,13 @@ F:\SoftUni\dbTeamwork\Team-Bottle-Green-\BottleGreen\BottleGreen.Models\bin\Debu
 F:\SoftUni\dbTeamwork\Team-Bottle-Green-\BottleGreen\BottleGreen.Models\obj\Debug\BottleGreen.Models.csprojResolveAssemblyReference.cache
 F:\SoftUni\dbTeamwork\Team-Bottle-Green-\BottleGreen\BottleGreen.Models\obj\Debug\BottleGreen.Models.dll
 F:\SoftUni\dbTeamwork\Team-Bottle-Green-\BottleGreen\BottleGreen.Models\obj\Debug\BottleGreen.Models.pdb
+F:\SoftUni\dbTeamwork\BottleGreen\BottleGreen.Models\bin\Debug\BottleGreen.Models.dll.config
+F:\SoftUni\dbTeamwork\BottleGreen\BottleGreen.Models\bin\Debug\BottleGreen.Models.dll
+F:\SoftUni\dbTeamwork\BottleGreen\BottleGreen.Models\bin\Debug\BottleGreen.Models.pdb
+F:\SoftUni\dbTeamwork\BottleGreen\BottleGreen.Models\bin\Debug\EntityFramework.dll
+F:\SoftUni\dbTeamwork\BottleGreen\BottleGreen.Models\bin\Debug\EntityFramework.SqlServer.dll
+F:\SoftUni\dbTeamwork\BottleGreen\BottleGreen.Models\bin\Debug\EntityFramework.xml
+F:\SoftUni\dbTeamwork\BottleGreen\BottleGreen.Models\bin\Debug\EntityFramework.SqlServer.xml
+F:\SoftUni\dbTeamwork\BottleGreen\BottleGreen.Models\obj\Debug\BottleGreen.Models.csprojResolveAssemblyReference.cache
+F:\SoftUni\dbTeamwork\BottleGreen\BottleGreen.Models\obj\Debug\BottleGreen.Models.dll
+F:\SoftUni\dbTeamwork\BottleGreen\BottleGreen.Models\obj\Debug\BottleGreen.Models.pdb

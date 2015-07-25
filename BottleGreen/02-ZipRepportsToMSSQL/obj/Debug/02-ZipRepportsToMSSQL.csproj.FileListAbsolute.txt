@@ -24,3 +24,16 @@ F:\SoftUni\dbTeamwork\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\D
 F:\SoftUni\dbTeamwork\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.csprojResolveAssemblyReference.cache
 F:\SoftUni\dbTeamwork\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.dll
 F:\SoftUni\dbTeamwork\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.pdb
+F:\SoftUni\dbTeamwork\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\02-ZipRepportsToMSSQL.dll.config
+F:\SoftUni\dbTeamwork\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\02-ZipRepportsToMSSQL.dll
+F:\SoftUni\dbTeamwork\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\02-ZipRepportsToMSSQL.pdb
+F:\SoftUni\dbTeamwork\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\BottleGreen.Models.dll
+F:\SoftUni\dbTeamwork\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFramework.dll
+F:\SoftUni\dbTeamwork\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFramework.SqlServer.dll
+F:\SoftUni\dbTeamwork\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\SoftUni\dbTeamwork\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\BottleGreen.Models.pdb
+F:\SoftUni\dbTeamwork\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFramework.xml
+F:\SoftUni\dbTeamwork\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFramework.SqlServer.xml
+F:\SoftUni\dbTeamwork\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.csprojResolveAssemblyReference.cache
+F:\SoftUni\dbTeamwork\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.dll
+F:\SoftUni\dbTeamwork\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.pdb

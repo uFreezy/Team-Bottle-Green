@@ -91,10 +91,17 @@
       <Project>{f6f5ab43-fe97-43c2-94ac-7cde52c8f801}</Project>
       <Name>02-ZipRepportsToMSSQL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\06-XMLToMSSQL\06-XMLToMSSQL.csproj">
+      <Project>{987251d5-26b1-4d84-8569-a942cc6da4d5}</Project>
+      <Name>06-XMLToMSSQL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BottleGreen.Models\BottleGreen.Models.csproj">
       <Project>{81cd8f03-6a59-46ce-8078-c27a19107359}</Project>
       <Name>BottleGreen.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
