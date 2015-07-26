@@ -69,20 +69,33 @@ namespace BottleGreen.Main
            try
            {
                var startDate = DateTime.Parse(this.startDate.Text);
-               var endDate = DateTime.Parse(this.startDate.Text);
+               var endDate = DateTime.Parse(this.endDate.Text);
+               var dateCheck = startDate > endDate;
+               if (dateCheck)
+               {
+                   throw new ArgumentException();
+               }
                XmlHelper xmlFileManager = new XmlHelper();
                var salesReport = xmlFileManager.ReadData(startDate, endDate);
-               string XmlResultFileName = @"..\SalesByVendorReport.xml";
+               string XmlResultFileName = @"..\..\SalesByVendorReport.xml";
                xmlFileManager.ExportToXml(salesReport, XmlResultFileName);
                this.startDate.Text = "";
                this.endDate.Text = "";
                MessageBox.Show(@"MS SQL Export to XML file has been finished!");
+               var xmlReaderStr = "notepad.exe";
+               Process.Start(xmlReaderStr, XmlResultFileName);
            }
-           catch (System.FormatException ex)
+           catch (System.FormatException fEx)
            {
                MessageBox.Show(
-                   ex.Message + Environment.NewLine
+                   fEx.Message + Environment.NewLine
                    + @"Date must be in format: ""YYYY.DD.MM""");
+           }
+           catch (System.ArgumentException argEx)
+           {
+               MessageBox.Show(
+                   argEx.Message + Environment.NewLine
+                   + @"Starting date must be earlier than end date!");
            }
         }
 
