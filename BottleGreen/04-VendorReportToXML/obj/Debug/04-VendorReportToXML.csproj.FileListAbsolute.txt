@@ -1,0 +1,12 @@
+F:\SoftUni\TeamWork\BottleGreen\04-VendorReportToXML\bin\Debug\04-VendorReportToXML.dll.config
+F:\SoftUni\TeamWork\BottleGreen\04-VendorReportToXML\bin\Debug\04-VendorReportToXML.dll
+F:\SoftUni\TeamWork\BottleGreen\04-VendorReportToXML\bin\Debug\04-VendorReportToXML.pdb
+F:\SoftUni\TeamWork\BottleGreen\04-VendorReportToXML\bin\Debug\BottleGreen.Models.dll
+F:\SoftUni\TeamWork\BottleGreen\04-VendorReportToXML\bin\Debug\EntityFramework.dll
+F:\SoftUni\TeamWork\BottleGreen\04-VendorReportToXML\bin\Debug\EntityFramework.SqlServer.dll
+F:\SoftUni\TeamWork\BottleGreen\04-VendorReportToXML\bin\Debug\BottleGreen.Models.pdb
+F:\SoftUni\TeamWork\BottleGreen\04-VendorReportToXML\bin\Debug\EntityFramework.xml
+F:\SoftUni\TeamWork\BottleGreen\04-VendorReportToXML\bin\Debug\EntityFramework.SqlServer.xml
+F:\SoftUni\TeamWork\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.csprojResolveAssemblyReference.cache
+F:\SoftUni\TeamWork\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.dll
+F:\SoftUni\TeamWork\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.pdb
