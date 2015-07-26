@@ -95,6 +95,10 @@
       <Project>{19be847e-1ba0-410d-9d6f-9e4fb663e45b}</Project>
       <Name>03-GeneratePDF</Name>
     </ProjectReference>
+    <ProjectReference Include="..\04-VendorReportToXML\04-VendorReportToXML.csproj">
+      <Project>{eaa4b48f-4bc0-4ba9-b3b3-73951344a634}</Project>
+      <Name>04-VendorReportToXML</Name>
+    </ProjectReference>
     <ProjectReference Include="..\06-XMLToMSSQL\06-XMLToMSSQL.csproj">
       <Project>{987251d5-26b1-4d84-8569-a942cc6da4d5}</Project>
       <Name>06-XMLToMSSQL</Name>
