@@ -42,6 +42,7 @@
             this.PDF_Reports = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.exit = new System.Windows.Forms.Button();
+            this.btn_OracleToMssql = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -53,13 +54,14 @@
             this.button1.Location = new System.Drawing.Point(6, 131);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(88, 40);
-            this.button1.TabIndex = 0;
+            this.button1.TabIndex = 1;
             this.button1.Text = "ZIP To MSSQL";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btn_OracleToMssql);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
@@ -189,6 +191,16 @@
             this.exit.UseVisualStyleBackColor = true;
             this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
+            // btn_OracleToMssql
+            // 
+            this.btn_OracleToMssql.Location = new System.Drawing.Point(6, 78);
+            this.btn_OracleToMssql.Name = "btn_OracleToMssql";
+            this.btn_OracleToMssql.Size = new System.Drawing.Size(88, 40);
+            this.btn_OracleToMssql.TabIndex = 0;
+            this.btn_OracleToMssql.Text = "Oracle to MSSQL";
+            this.btn_OracleToMssql.UseVisualStyleBackColor = true;
+            this.btn_OracleToMssql.Click += new System.EventHandler(this.btn_OracleToMssql_Click);
+            // 
             // BottleGreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -228,6 +240,7 @@
         private System.Windows.Forms.Label startDateLabel;
         private System.Windows.Forms.TextBox startDate;
         private System.Windows.Forms.Button exit;
+        private System.Windows.Forms.Button btn_OracleToMssql;
     }
 }
 

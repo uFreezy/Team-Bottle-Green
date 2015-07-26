@@ -14,6 +14,7 @@ using _02_ZipRepportsToMSSQL;
 using _06_XMLToMSSQL;
 using System.Threading;
 using System.Globalization;
+using _02_OracleToMSSQL;
 
 
 namespace BottleGreen.Main
@@ -117,6 +118,15 @@ namespace BottleGreen.Main
         private void exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btn_OracleToMssql_Click(object sender, EventArgs e)
+        {
+            var sw = new Stopwatch();
+            sw.Start();
+            var d = new OracleToMssqlMigrator();
+            d.CheckProductsInOracle();
+            MessageBox.Show("Operation completed! It took us " + sw.Elapsed.TotalSeconds + " seconds to process your request!\nAll products updated.");
         }
     }
 }

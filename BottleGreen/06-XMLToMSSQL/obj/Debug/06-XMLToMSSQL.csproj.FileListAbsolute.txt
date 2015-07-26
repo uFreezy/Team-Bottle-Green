@@ -34,3 +34,15 @@ F:\SoftUni\TeamWork\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.SqlServe
 F:\SoftUni\TeamWork\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.csprojResolveAssemblyReference.cache
 F:\SoftUni\TeamWork\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.dll
 F:\SoftUni\TeamWork\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\06-XMLToMSSQL.dll.config
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\06-XMLToMSSQL.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\06-XMLToMSSQL.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\BottleGreen.Models.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\BottleGreen.Models.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.xml
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.csprojResolveAssemblyReference.cache
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.pdb

@@ -10,3 +10,15 @@ F:\SoftUni\TeamWork\BottleGreen\04-VendorReportToXML\bin\Debug\EntityFramework.S
 F:\SoftUni\TeamWork\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.csprojResolveAssemblyReference.cache
 F:\SoftUni\TeamWork\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.dll
 F:\SoftUni\TeamWork\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\04-VendorReportToXML.dll.config
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\04-VendorReportToXML.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\04-VendorReportToXML.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\BottleGreen.Models.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\EntityFramework.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\BottleGreen.Models.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\EntityFramework.xml
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.csprojResolveAssemblyReference.cache
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.pdb

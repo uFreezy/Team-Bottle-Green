@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BottleGreenOracleModel.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="11.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MEASURES">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="MEASURE_NAME" Type="varchar2" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PRODUCTS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="VENDOR_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PRODUCT_NAME" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="MEASURE_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PRICE" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VENDORS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="VENDOR_NAME" Type="varchar2" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="PRODUCTS_FK1">
+    <End Role="MEASURES" Type="Self.MEASURES" Multiplicity="1" />
+    <End Role="PRODUCTS" Type="Self.PRODUCTS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MEASURES">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PRODUCTS">
+        <PropertyRef Name="MEASURE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PRODUCTS_FK2">
+    <End Role="VENDORS" Type="Self.VENDORS" Multiplicity="1" />
+    <End Role="PRODUCTS" Type="Self.PRODUCTS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VENDORS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PRODUCTS">
+        <PropertyRef Name="VENDOR_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BottleGreenOracleModelStoreContainer">
+    <EntitySet Name="MEASURES" EntityType="Self.MEASURES" Schema="BOTTLEGREENTW" store:Type="Tables" />
+    <EntitySet Name="PRODUCTS" EntityType="Self.PRODUCTS" Schema="BOTTLEGREENTW" store:Type="Tables" />
+    <EntitySet Name="VENDORS" EntityType="Self.VENDORS" Schema="BOTTLEGREENTW" store:Type="Tables" />
+    <AssociationSet Name="PRODUCTS_FK1" Association="Self.PRODUCTS_FK1">
+      <End Role="MEASURES" EntitySet="MEASURES" />
+      <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+    </AssociationSet>
+    <AssociationSet Name="PRODUCTS_FK2" Association="Self.PRODUCTS_FK2">
+      <End Role="VENDORS" EntitySet="VENDORS" />
+      <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

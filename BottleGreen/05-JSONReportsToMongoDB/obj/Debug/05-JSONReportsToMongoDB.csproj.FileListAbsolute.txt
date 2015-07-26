@@ -1,0 +1,5 @@
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\05-JSONReportsToMongoDB\bin\Debug\05-JSONReportsToMongoDB.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\05-JSONReportsToMongoDB\bin\Debug\05-JSONReportsToMongoDB.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\05-JSONReportsToMongoDB\obj\Debug\05-JSONReportsToMongoDB.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\05-JSONReportsToMongoDB\obj\Debug\05-JSONReportsToMongoDB.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\05-JSONReportsToMongoDB\obj\Debug\05-JSONReportsToMongoDB.csprojResolveAssemblyReference.cache
