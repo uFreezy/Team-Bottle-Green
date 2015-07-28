@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -84,6 +85,9 @@ namespace _05_JSONReportsToMongoDB
                     var json = JsonConvert.SerializeObject(product, Formatting.Indented);
                     path = path + string.Format("{0}.json", product.ProductId);
                     System.IO.File.WriteAllText(path, json);
+                    // opens files in notepad
+                    var xmlReaderStr = "notepad.exe";
+                    Process.Start(xmlReaderStr, path);
                 }
             }
 

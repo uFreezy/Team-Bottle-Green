@@ -9,3 +9,15 @@ C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.O
 C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.Oracle\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.Oracle\obj\Debug\BottleGreen.Models.Oracle.dll
 C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.Oracle\obj\Debug\BottleGreen.Models.Oracle.pdb
+F:\SoftUni\teamWorkBottle\BottleGreen\BottleGreen.Models.Oracle\bin\Debug\BottleGreen.Models.Oracle.dll.config
+F:\SoftUni\teamWorkBottle\BottleGreen\BottleGreen.Models.Oracle\bin\Debug\BottleGreen.Models.Oracle.dll
+F:\SoftUni\teamWorkBottle\BottleGreen\BottleGreen.Models.Oracle\bin\Debug\BottleGreen.Models.Oracle.pdb
+F:\SoftUni\teamWorkBottle\BottleGreen\BottleGreen.Models.Oracle\bin\Debug\EntityFramework.dll
+F:\SoftUni\teamWorkBottle\BottleGreen\BottleGreen.Models.Oracle\bin\Debug\EntityFramework.SqlServer.dll
+F:\SoftUni\teamWorkBottle\BottleGreen\BottleGreen.Models.Oracle\bin\Debug\Oracle.ManagedDataAccess.dll
+F:\SoftUni\teamWorkBottle\BottleGreen\BottleGreen.Models.Oracle\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+F:\SoftUni\teamWorkBottle\BottleGreen\BottleGreen.Models.Oracle\bin\Debug\EntityFramework.xml
+F:\SoftUni\teamWorkBottle\BottleGreen\BottleGreen.Models.Oracle\bin\Debug\EntityFramework.SqlServer.xml
+F:\SoftUni\teamWorkBottle\BottleGreen\BottleGreen.Models.Oracle\obj\Debug\BottleGreen.Models.Oracle.csprojResolveAssemblyReference.cache
+F:\SoftUni\teamWorkBottle\BottleGreen\BottleGreen.Models.Oracle\obj\Debug\BottleGreen.Models.Oracle.dll
+F:\SoftUni\teamWorkBottle\BottleGreen\BottleGreen.Models.Oracle\obj\Debug\BottleGreen.Models.Oracle.pdb

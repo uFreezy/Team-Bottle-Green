@@ -2,20 +2,20 @@
 <sales>
   <sale vendor="Nestle">
     <summary date="2014.06.21" total-sum="5.67" />
-    <summary date="2014.07.20" total-sum="7.56" />
-    <summary date="2014.07.21" total-sum="7.56" />
-    <summary date="2014.07.22" total-sum="3.78" />
+    <summary date="2014.07.20" total-sum="11.34" />
+    <summary date="2014.07.21" total-sum="11.34" />
+    <summary date="2014.07.22" total-sum="5.67" />
   </sale>
   <sale vendor="Vinprom Karnobat">
     <summary date="2014.06.21" total-sum="22.68" />
-    <summary date="2014.07.20" total-sum="30.24" />
-    <summary date="2014.07.21" total-sum="45.36" />
-    <summary date="2014.07.22" total-sum="30.24" />
+    <summary date="2014.07.20" total-sum="45.36" />
+    <summary date="2014.07.21" total-sum="68.04" />
+    <summary date="2014.07.22" total-sum="45.36" />
   </sale>
   <sale vendor="Zagorka">
     <summary date="2014.06.21" total-sum="8.71" />
-    <summary date="2014.07.20" total-sum="12.3" />
-    <summary date="2014.07.21" total-sum="19.48" />
-    <summary date="2014.07.22" total-sum="19.48" />
+    <summary date="2014.07.20" total-sum="18.45" />
+    <summary date="2014.07.21" total-sum="29.22" />
+    <summary date="2014.07.22" total-sum="29.22" />
   </sale>
 </sales>
