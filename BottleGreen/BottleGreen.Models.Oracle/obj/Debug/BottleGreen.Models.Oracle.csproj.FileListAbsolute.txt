@@ -9,4 +9,3 @@ C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.O
 C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.Oracle\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.Oracle\obj\Debug\BottleGreen.Models.Oracle.dll
 C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.Oracle\obj\Debug\BottleGreen.Models.Oracle.pdb
-C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.Oracle\obj\Debug\BottleGreen.Models.Oracle.csprojResolveAssemblyReference.cache

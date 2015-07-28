@@ -30,6 +30,7 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btn_OracleToMssql = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -41,17 +42,23 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.PDF_Reports = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.btn_JsonReports = new System.Windows.Forms.Button();
             this.exit = new System.Windows.Forms.Button();
-            this.btn_OracleToMssql = new System.Windows.Forms.Button();
+            this.btn_ToMongo = new System.Windows.Forms.Button();
+            this.tx_start = new System.Windows.Forms.TextBox();
+            this.tx_end = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(6, 131);
+            this.button1.Location = new System.Drawing.Point(6, 158);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(88, 40);
             this.button1.TabIndex = 1;
@@ -65,17 +72,27 @@
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(100, 177);
+            this.groupBox1.Size = new System.Drawing.Size(100, 205);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Problem 2";
+            // 
+            // btn_OracleToMssql
+            // 
+            this.btn_OracleToMssql.Location = new System.Drawing.Point(6, 108);
+            this.btn_OracleToMssql.Name = "btn_OracleToMssql";
+            this.btn_OracleToMssql.Size = new System.Drawing.Size(88, 40);
+            this.btn_OracleToMssql.TabIndex = 0;
+            this.btn_OracleToMssql.Text = "Oracle to MSSQL";
+            this.btn_OracleToMssql.UseVisualStyleBackColor = true;
+            this.btn_OracleToMssql.Click += new System.EventHandler(this.btn_OracleToMssql_Click);
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Location = new System.Drawing.Point(436, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(100, 177);
+            this.groupBox2.Size = new System.Drawing.Size(100, 205);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Problem 6";
@@ -83,7 +100,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(6, 131);
+            this.button2.Location = new System.Drawing.Point(6, 158);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(88, 40);
             this.button2.TabIndex = 0;
@@ -100,7 +117,7 @@
             this.groupBox3.Controls.Add(this.button3);
             this.groupBox3.Location = new System.Drawing.Point(224, 12);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(100, 177);
+            this.groupBox3.Size = new System.Drawing.Size(100, 205);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Problem 4";
@@ -108,7 +125,7 @@
             // endDateLabel
             // 
             this.endDateLabel.AutoSize = true;
-            this.endDateLabel.Location = new System.Drawing.Point(6, 78);
+            this.endDateLabel.Location = new System.Drawing.Point(6, 63);
             this.endDateLabel.Name = "endDateLabel";
             this.endDateLabel.Size = new System.Drawing.Size(52, 13);
             this.endDateLabel.TabIndex = 4;
@@ -117,7 +134,7 @@
             // 
             // endDate
             // 
-            this.endDate.Location = new System.Drawing.Point(6, 94);
+            this.endDate.Location = new System.Drawing.Point(6, 79);
             this.endDate.Multiline = true;
             this.endDate.Name = "endDate";
             this.endDate.Size = new System.Drawing.Size(88, 20);
@@ -128,7 +145,7 @@
             // startDateLabel
             // 
             this.startDateLabel.AutoSize = true;
-            this.startDateLabel.Location = new System.Drawing.Point(6, 35);
+            this.startDateLabel.Location = new System.Drawing.Point(6, 20);
             this.startDateLabel.Name = "startDateLabel";
             this.startDateLabel.Size = new System.Drawing.Size(54, 13);
             this.startDateLabel.TabIndex = 2;
@@ -136,7 +153,7 @@
             // 
             // startDate
             // 
-            this.startDate.Location = new System.Drawing.Point(6, 51);
+            this.startDate.Location = new System.Drawing.Point(6, 36);
             this.startDate.Multiline = true;
             this.startDate.Name = "startDate";
             this.startDate.Size = new System.Drawing.Size(88, 20);
@@ -144,7 +161,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(6, 131);
+            this.button3.Location = new System.Drawing.Point(6, 158);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(88, 40);
             this.button3.TabIndex = 0;
@@ -157,14 +174,14 @@
             this.groupBox4.Controls.Add(this.PDF_Reports);
             this.groupBox4.Location = new System.Drawing.Point(118, 12);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(100, 177);
+            this.groupBox4.Size = new System.Drawing.Size(100, 205);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Problem 3";
             // 
             // PDF_Reports
             // 
-            this.PDF_Reports.Location = new System.Drawing.Point(6, 131);
+            this.PDF_Reports.Location = new System.Drawing.Point(6, 158);
             this.PDF_Reports.Name = "PDF_Reports";
             this.PDF_Reports.Size = new System.Drawing.Size(88, 40);
             this.PDF_Reports.TabIndex = 0;
@@ -174,12 +191,28 @@
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.label2);
+            this.groupBox5.Controls.Add(this.label1);
+            this.groupBox5.Controls.Add(this.tx_end);
+            this.groupBox5.Controls.Add(this.tx_start);
+            this.groupBox5.Controls.Add(this.btn_ToMongo);
+            this.groupBox5.Controls.Add(this.btn_JsonReports);
             this.groupBox5.Location = new System.Drawing.Point(330, 12);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(100, 177);
+            this.groupBox5.Size = new System.Drawing.Size(100, 205);
             this.groupBox5.TabIndex = 5;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Problem 5";
+            // 
+            // btn_JsonReports
+            // 
+            this.btn_JsonReports.Location = new System.Drawing.Point(6, 114);
+            this.btn_JsonReports.Name = "btn_JsonReports";
+            this.btn_JsonReports.Size = new System.Drawing.Size(88, 39);
+            this.btn_JsonReports.TabIndex = 0;
+            this.btn_JsonReports.Text = "Create JSON Reports";
+            this.btn_JsonReports.UseVisualStyleBackColor = true;
+            this.btn_JsonReports.Click += new System.EventHandler(this.btn_JsonReports_Click);
             // 
             // exit
             // 
@@ -191,15 +224,49 @@
             this.exit.UseVisualStyleBackColor = true;
             this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
-            // btn_OracleToMssql
+            // btn_ToMongo
             // 
-            this.btn_OracleToMssql.Location = new System.Drawing.Point(6, 78);
-            this.btn_OracleToMssql.Name = "btn_OracleToMssql";
-            this.btn_OracleToMssql.Size = new System.Drawing.Size(88, 40);
-            this.btn_OracleToMssql.TabIndex = 0;
-            this.btn_OracleToMssql.Text = "Oracle to MSSQL";
-            this.btn_OracleToMssql.UseVisualStyleBackColor = true;
-            this.btn_OracleToMssql.Click += new System.EventHandler(this.btn_OracleToMssql_Click);
+            this.btn_ToMongo.Location = new System.Drawing.Point(6, 158);
+            this.btn_ToMongo.Name = "btn_ToMongo";
+            this.btn_ToMongo.Size = new System.Drawing.Size(88, 40);
+            this.btn_ToMongo.TabIndex = 1;
+            this.btn_ToMongo.Text = "Reports To MONGODB";
+            this.btn_ToMongo.UseVisualStyleBackColor = true;
+            this.btn_ToMongo.Click += new System.EventHandler(this.btn_ToMongo_Click);
+            // 
+            // tx_start
+            // 
+            this.tx_start.Location = new System.Drawing.Point(6, 36);
+            this.tx_start.Name = "tx_start";
+            this.tx_start.Size = new System.Drawing.Size(88, 20);
+            this.tx_start.TabIndex = 2;
+            this.tx_start.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            // 
+            // tx_end
+            // 
+            this.tx_end.Location = new System.Drawing.Point(6, 79);
+            this.tx_end.Name = "tx_end";
+            this.tx_end.Size = new System.Drawing.Size(88, 20);
+            this.tx_end.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "start date:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 63);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "end date:";
+            this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
             // BottleGreen
             // 
@@ -220,6 +287,8 @@
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -241,6 +310,12 @@
         private System.Windows.Forms.TextBox startDate;
         private System.Windows.Forms.Button exit;
         private System.Windows.Forms.Button btn_OracleToMssql;
+        private System.Windows.Forms.Button btn_JsonReports;
+        private System.Windows.Forms.Button btn_ToMongo;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tx_end;
+        private System.Windows.Forms.TextBox tx_start;
     }
 }
 

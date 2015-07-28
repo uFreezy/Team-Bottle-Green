@@ -118,3 +118,12 @@ C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Main\bin
 C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Main\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
 C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Main\bin\Debug\02-OracleToMSSQL.pdb
 C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Main\bin\Debug\BottleGreen.Models.Oracle.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Main\bin\Debug\05-JSONReportsToMongoDB.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Main\bin\Debug\Newtonsoft.Json.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Main\bin\Debug\05-JSONReportsToMongoDB.pdb
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Main\bin\Debug\Newtonsoft.Json.xml
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Main\bin\Debug\MongoDB.Bson.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Main\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Main\bin\Debug\MongoDB.Driver.dll
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Main\bin\Debug\MongoDB.Bson.xml
+C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Main\bin\Debug\MongoDB.Driver.xml

@@ -39,6 +39,16 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\packages\MongoDB.Bson.2.0.1\lib\net45\MongoDB.Bson.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\packages\MongoDB.Driver.2.0.1\lib\net45\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core">
+      <HintPath>..\packages\MongoDB.Driver.Core.2.0.1\lib\net45\MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
       <HintPath>..\packages\Oracle.ManagedDataAccess.12.1.022\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
     </Reference>
@@ -108,6 +118,10 @@
     <ProjectReference Include="..\04-VendorReportToXML\04-VendorReportToXML.csproj">
       <Project>{eaa4b48f-4bc0-4ba9-b3b3-73951344a634}</Project>
       <Name>04-VendorReportToXML</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\05-JSONReportsToMongoDB\05-JSONReportsToMongoDB.csproj">
+      <Project>{44d7844b-b12c-4150-b61c-ee66be750588}</Project>
+      <Name>05-JSONReportsToMongoDB</Name>
     </ProjectReference>
     <ProjectReference Include="..\06-XMLToMSSQL\06-XMLToMSSQL.csproj">
       <Project>{987251d5-26b1-4d84-8569-a942cc6da4d5}</Project>

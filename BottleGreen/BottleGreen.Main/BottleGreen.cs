@@ -15,6 +15,7 @@ using _06_XMLToMSSQL;
 using System.Threading;
 using System.Globalization;
 using _02_OracleToMSSQL;
+using _05_JSONReportsToMongoDB;
 
 
 namespace BottleGreen.Main
@@ -127,6 +128,77 @@ namespace BottleGreen.Main
             var d = new OracleToMssqlMigrator();
             d.CheckProductsInOracle();
             MessageBox.Show("Operation completed! It took us " + sw.Elapsed.TotalSeconds + " seconds to process your request!\nAll products updated.");
+        }
+
+        private void btn_JsonReports_Click(object sender, EventArgs e)
+        {
+            string start = tx_start.Text;
+            string end = tx_end.Text;
+            try
+            {
+                DateTime d1 = DateTime.Parse(start);
+                DateTime d2 = DateTime.Parse(end);
+                if (d1 > d2)
+                {
+                    throw new ArgumentException("The end date has to be after the start date");
+                }
+                var r = new JsonReportCreator();
+                r.GenerateJsonReports(d1, d2);
+                MessageBox.Show("Reports created!");
+            }
+            catch (ArgumentNullException ane)
+            {
+                MessageBox.Show(string.Format("You have to enter dates for start and end\n{0}", ane.Message));
+            }
+            catch (ArgumentException ae)
+            {
+                MessageBox.Show(ae.Message);
+            }
+            catch (FormatException fe)
+            {
+                MessageBox.Show(string.Format("Enter the dates in the following format: MM/DD/YYYY\n{0}", fe.Message));
+            }
+        }
+
+        private void btn_ToMongo_Click(object sender, EventArgs e)
+        {
+            string start = tx_start.Text;
+            string end = tx_end.Text;
+            try
+            {
+                DateTime d1 = DateTime.Parse(start);
+                DateTime d2 = DateTime.Parse(end);
+                if (d1 > d2)
+                {
+                    throw new ArgumentException("The end date has to be after the start date");
+                }
+
+                var r = new JsonReportCreator();
+                r.UploadMongoReports(d1, d2);
+                MessageBox.Show("Reports uploaded!");
+            }
+            catch (ArgumentNullException ane)
+            {
+                MessageBox.Show(string.Format("You have to enter dates for start and end\n{0}", ane.Message));
+            }
+            catch (ArgumentException ae)
+            {
+                MessageBox.Show(ae.Message);
+            }
+            catch (FormatException fe)
+            {
+                MessageBox.Show(string.Format("Enter the dates in the following format: DD/MM/YYYY\n{0}", fe.Message));
+            }
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

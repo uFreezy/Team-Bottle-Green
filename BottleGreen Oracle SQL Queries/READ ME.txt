@@ -1,4 +1,6 @@
-1. Execute the CreateUser.sql script.
-2. Create new connection with the new user (BottleGreenTW). The password is 1234.
+1. Use the System account and the password you enterd on install to create a new connection named BottleGreenTW, hostname: localhost and port 1521
+2. Execute the CreateUser.sql script. - this will be assigned to the old connection.
+3. Login to the connection BottleGreenTW with the user BottleGreenTW. The password is 1234.
 3. Inside the new connection execute CreateAndPopulate.sql.
-4. Done.
+4. Press on the Commit button!
+5. Done.
