@@ -119,8 +119,8 @@ namespace _05_JSONReportsToMongoDB
         private static IQueryable<Report> GetProducts(BottleGreenEntities context, DateTime start, DateTime end)
         {
             var products = from p in context.Products
-                           where p.SalesReports.Any(r=>r.ReportDate < end) &&
-                                p.SalesReports.Any(r=>r.ReportDate > start)
+                           where p.SalesReports.Any(r=>r.ReportDate <= end) &&
+                                p.SalesReports.Any(r=>r.ReportDate >= start)
                 select new Report()
                 {
                     ProductId = p.ID,
