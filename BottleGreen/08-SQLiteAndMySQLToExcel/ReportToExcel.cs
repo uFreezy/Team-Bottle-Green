@@ -17,7 +17,7 @@
         static void Main()
         {
             string sqlSelect = "SELECT * FROM Taxes";
-            string sqliteDataSourcePath = @"..\..\..\..\Resources\SQLiteDb.db";
+            string sqliteDataSourcePath = @"..\..\SQLiteDb.db";
 
             var sqliteConnection = new SQLiteConnection("Data Source=" + sqliteDataSourcePath);
             var sqliteSelectCommand = new SQLiteCommand(sqlSelect, sqliteConnection);
