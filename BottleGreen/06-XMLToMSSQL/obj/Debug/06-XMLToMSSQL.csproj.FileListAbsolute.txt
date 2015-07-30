@@ -58,3 +58,14 @@ F:\SoftUni\teamWorkBottle\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.Sq
 F:\SoftUni\teamWorkBottle\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.csprojResolveAssemblyReference.cache
 F:\SoftUni\teamWorkBottle\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.dll
 F:\SoftUni\teamWorkBottle\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.pdb
+D:\DbApps\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\06-XMLToMSSQL.dll.config
+D:\DbApps\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\06-XMLToMSSQL.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\06-XMLToMSSQL.pdb
+D:\DbApps\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\BottleGreen.Models.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.SqlServer.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\BottleGreen.Models.pdb
+D:\DbApps\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.xml
+D:\DbApps\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\bin\Debug\EntityFramework.SqlServer.xml
+D:\DbApps\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\06-XMLToMSSQL\obj\Debug\06-XMLToMSSQL.pdb

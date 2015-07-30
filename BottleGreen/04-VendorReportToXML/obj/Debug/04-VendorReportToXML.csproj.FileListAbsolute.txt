@@ -34,3 +34,15 @@ F:\SoftUni\teamWorkBottle\BottleGreen\04-VendorReportToXML\bin\Debug\EntityFrame
 F:\SoftUni\teamWorkBottle\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.csprojResolveAssemblyReference.cache
 F:\SoftUni\teamWorkBottle\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.dll
 F:\SoftUni\teamWorkBottle\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.pdb
+D:\DbApps\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\04-VendorReportToXML.dll.config
+D:\DbApps\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\04-VendorReportToXML.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\04-VendorReportToXML.pdb
+D:\DbApps\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\BottleGreen.Models.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\EntityFramework.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\EntityFramework.SqlServer.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\BottleGreen.Models.pdb
+D:\DbApps\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\EntityFramework.xml
+D:\DbApps\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\bin\Debug\EntityFramework.SqlServer.xml
+D:\DbApps\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.csprojResolveAssemblyReference.cache
+D:\DbApps\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\04-VendorReportToXML\obj\Debug\04-VendorReportToXML.pdb

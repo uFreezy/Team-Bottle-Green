@@ -2,3 +2,7 @@ C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.M
 C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.MySQL\bin\Debug\BottleGreen.Models.MySQL.pdb
 C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.MySQL\obj\Debug\BottleGreen.Models.MySQL.dll
 C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.MySQL\obj\Debug\BottleGreen.Models.MySQL.pdb
+D:\DbApps\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.MySQL\bin\Debug\BottleGreen.Models.MySQL.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.MySQL\bin\Debug\BottleGreen.Models.MySQL.pdb
+D:\DbApps\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.MySQL\obj\Debug\BottleGreen.Models.MySQL.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\BottleGreen.Models.MySQL\obj\Debug\BottleGreen.Models.MySQL.pdb

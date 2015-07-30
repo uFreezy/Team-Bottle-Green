@@ -2,3 +2,7 @@ C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\07-MSSQLToMySQL\bin\
 C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\07-MSSQLToMySQL\bin\Debug\07-MSSQLToMySQL.pdb
 C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\07-MSSQLToMySQL\obj\Debug\07-MSSQLToMySQL.dll
 C:\Users\p.kanev\Desktop\git\Team-Bottle-Green-\BottleGreen\07-MSSQLToMySQL\obj\Debug\07-MSSQLToMySQL.pdb
+D:\DbApps\Team-Bottle-Green-\BottleGreen\07-MSSQLToMySQL\bin\Debug\07-MSSQLToMySQL.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\07-MSSQLToMySQL\bin\Debug\07-MSSQLToMySQL.pdb
+D:\DbApps\Team-Bottle-Green-\BottleGreen\07-MSSQLToMySQL\obj\Debug\07-MSSQLToMySQL.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\07-MSSQLToMySQL\obj\Debug\07-MSSQLToMySQL.pdb

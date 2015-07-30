@@ -16,6 +16,7 @@ using System.Threading;
 using System.Globalization;
 using _02_OracleToMSSQL;
 using _05_JSONReportsToMongoDB;
+using _08_SQLiteAndMySQLToExcel;
 
 
 namespace BottleGreen.Main
@@ -199,6 +200,11 @@ namespace BottleGreen.Main
         private void textBox1_TextChanged_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void button_SQLiteAndMSSQLToExcel_Click(object sender, EventArgs e)
+        {
+            ReportToExcel.RunExcelReport(@"D:\DbApps\Team-Bottle-Green-\BottleGreen\08-SQLiteAndMySQLToExcel\Report.xlsx");
         }
     }
 }

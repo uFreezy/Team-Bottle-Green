@@ -127,6 +127,10 @@
       <Project>{987251d5-26b1-4d84-8569-a942cc6da4d5}</Project>
       <Name>06-XMLToMSSQL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\08-SQLiteAndMySQLToExcel\08-SQLiteAndMySQLToExcel.csproj">
+      <Project>{821c46e6-bb75-4bd7-91df-bcafa2558855}</Project>
+      <Name>08-SQLiteAndMySQLToExcel</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BottleGreen.Models.Oracle\BottleGreen.Models.Oracle.csproj">
       <Project>{8946df27-1411-4532-8867-ac3096aadd99}</Project>
       <Name>BottleGreen.Models.Oracle</Name>

@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _08_SQLiteAndMySQLToExcel
+﻿namespace _08_SQLiteAndMySQLToExcel
 {
-    class Sales
+    public class Sales
     {
+        public Sales(string name, decimal income, decimal expense, decimal tax)
+        {
+            this.Name = name;
+            this.Income = income;
+            this.Expense = expense;
+            this.Tax = tax;
+        }
+        public string Name { get; set; }
+        public decimal Income { get; set; }
+        public decimal Expense { get; set; }
+        public decimal Tax { get; set; }
     }
 }

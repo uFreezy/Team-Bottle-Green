@@ -76,3 +76,16 @@ F:\SoftUni\teamWorkBottle\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFram
 F:\SoftUni\teamWorkBottle\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.csprojResolveAssemblyReference.cache
 F:\SoftUni\teamWorkBottle\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.dll
 F:\SoftUni\teamWorkBottle\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.pdb
+D:\DbApps\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\02-ZipRepportsToMSSQL.dll.config
+D:\DbApps\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\02-ZipRepportsToMSSQL.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\02-ZipRepportsToMSSQL.pdb
+D:\DbApps\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\BottleGreen.Models.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFramework.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFramework.SqlServer.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\BottleGreen.Models.pdb
+D:\DbApps\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFramework.xml
+D:\DbApps\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\bin\Debug\EntityFramework.SqlServer.xml
+D:\DbApps\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.csprojResolveAssemblyReference.cache
+D:\DbApps\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.dll
+D:\DbApps\Team-Bottle-Green-\BottleGreen\02-ZipRepportsToMSSQL\obj\Debug\02-ZipRepportsToMSSQL.pdb
