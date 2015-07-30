@@ -168,3 +168,6 @@ F:\SoftUni\teamWorkBottle\BottleGreen\BottleGreen.Main\obj\Debug\BottleGreen.Mai
 F:\SoftUni\teamWorkBottle\BottleGreen\BottleGreen.Main\obj\Debug\BottleGreen.Main.BottleGreen.resources
 F:\SoftUni\teamWorkBottle\BottleGreen\BottleGreen.Main\obj\Debug\BottleGreen.Main.Properties.Resources.resources
 F:\SoftUni\teamWorkBottle\BottleGreen\BottleGreen.Main\obj\Debug\BottleGreen.Main.csproj.GenerateResource.Cache
+D:\DbApps\Team-Bottle-Green-\BottleGreen\BottleGreen.Main\bin\Debug\BottleGreen.Main.exe.config
+D:\DbApps\Team-Bottle-Green-\BottleGreen\BottleGreen.Main\obj\Debug\BottleGreen.Main.exe
+D:\DbApps\Team-Bottle-Green-\BottleGreen\BottleGreen.Main\obj\Debug\BottleGreen.Main.pdb
