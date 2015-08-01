@@ -14,10 +14,10 @@
 
     public class ReportToExcel
     {
-        static void Main()
+        public static void Main()
         {
             string sqlSelect = "SELECT * FROM Taxes";
-            string sqliteDataSourcePath = @"..\..\SQLiteDb.db";
+            string sqliteDataSourcePath = @"..\..\..\08-SQLiteAndMySQLToExcel\SQLiteDb.db";
 
             var sqliteConnection = new SQLiteConnection("Data Source=" + sqliteDataSourcePath);
             var sqliteSelectCommand = new SQLiteCommand(sqlSelect, sqliteConnection);
@@ -138,8 +138,10 @@
             const int FinancialResultIndex = 5;
 
             var excelApplication = new Application();
-            String excelReportPath = @"D:\DbApps\Team-Bottle-Green-\BottleGreen\08-SQLiteAndMySQLToExcel\Report.xlsx";
-            String excelReportPathBackup = String.Format(@"D:\DbApps\Team-Bottle-Green-\BottleGreen\08-SQLiteAndMySQLToExcel\Report-{0}-{1}-{2}-{3}-{4}-{5}.xlsx",
+            //String excelReportPath = @"D:\DbApps\Team-Bottle-Green-\BottleGreen\08-SQLiteAndMySQLToExcel\Report.xlsx";
+            //String excelReportPathBackup = String.Format(@"D:\DbApps\Team-Bottle-Green-\BottleGreen\08-SQLiteAndMySQLToExcel\Report-{0}-{1}-{2}-{3}-{4}-{5}.xlsx",
+            String excelReportPath = @"C:\Users\p.kanev\Desktop\BottleGreen\08-SQLiteAndMySQLToExcel\Report.xlsx";
+            String excelReportPathBackup = String.Format(@"..\..\..\Excel-Reports\Report-{0}-{1}-{2}-{3}-{4}-{5}.xlsx",
                 DateTime.Now.Year,
                 DateTime.Now.Month,
                 DateTime.Now.Day,
@@ -187,7 +189,7 @@
 
         }
 
-        public static void RunExcelReport(string path)
+        public static void RunExcelReport(string path = @"C:\Users\p.kanev\Desktop\BottleGreen\08-SQLiteAndMySQLToExcel\Report.xlsx")
         {
             Process.Start(path);
         }

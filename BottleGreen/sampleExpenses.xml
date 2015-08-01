@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<expenses-by-month>
+  <vendor name="Nestle">
+    <expenses month="Jul-2011">30.00</expenses>
+    <expenses month="Aug-2011">40.00</expenses>
+  </vendor>
+  <vendor name="Vinprom Karnobat">
+    <expenses month="Jul-2011">200.00</expenses>
+    <expenses month="Aug-2011">180.00</expenses>
+  </vendor>
+  <vendor name="Zagorka">
+    <expenses month="Jul-2011">120.00</expenses>
+    <expenses month="Aug-2011">180.00</expenses>
+  </vendor>
+  <vendor name="Lindt">
+    <expenses month="Jul-2011">330.00</expenses>
+    <expenses month="Aug-2011">440.00</expenses>
+  </vendor>
+  <vendor name="Bulgartabak">
+    <expenses month="Jul-2011">2300.00</expenses>
+    <expenses month="Aug-2011">1800.00</expenses>
+  </vendor>
+  <vendor name="Chipi">
+    <expenses month="Jul-2011">50.00</expenses>
+    <expenses month="Aug-2011">70.00</expenses>
+  </vendor>
+  <vendor name="Coca Cola">
+    <expenses month="Jul-2011">5000.00</expenses>
+    <expenses month="Aug-2011">5000.00</expenses>
+  </vendor>
+  <vendor name="Bankia">
+    <expenses month="Jul-2011">250.00</expenses>
+    <expenses month="Aug-2011">380.00</expenses>
+  </vendor>
+  <vendor name="Reese">
+    <expenses month="Jul-2011">590.00</expenses>
+    <expenses month="Aug-2011">590.00</expenses>
+  </vendor>
+</expenses-by-month>

@@ -6,6 +6,6 @@
     <Grid>
         <Calendar Margin="0,10,301,101" HorizontalAlignment="Right" Width="177" x:Name="ReportStartDate" SelectedDatesChanged="ReportStartDate_OnSelectedDatesChanged"/>
         <Calendar Margin="296,10,45,101" x:Name="ReportEndDate" SelectedDatesChanged="ReportEndDate_OnSelectedDatesChanged"/>
-        <Button Margin="39,259,36,28" x:Name="MakeReportButton" Click=" MakePdfReportButton_OnClick" Content="Make Report"/>
+        <Button Margin="39,259,36,28" x:Name="MakeReportButton" Click="MakePdfReportButton_OnClick" Content="Make Report"/>
     </Grid>
 </Window>

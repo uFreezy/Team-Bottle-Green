@@ -89,7 +89,7 @@ namespace Task3
                 DateTime? date = null;
                 double dateSum = 0;
 
-                PdfWriter.GetInstance(report, new FileStream("../../Report.pdf", FileMode.Create));
+                PdfWriter.GetInstance(report, new FileStream("../../../PDF-Reports/Report.pdf", FileMode.Create));
 
                 report.Open();
 

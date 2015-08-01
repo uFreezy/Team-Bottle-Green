@@ -80,7 +80,7 @@ namespace BottleGreen.Main
                }
                XmlHelper xmlFileManager = new XmlHelper();
                var salesReport = xmlFileManager.ReadData(startDate, endDate);
-               string XmlResultFileName = @"..\..\SalesByVendorReport.xml";
+               string XmlResultFileName = @"..\..\..\XML-Reports\SalesByVendorReport.xml";
                xmlFileManager.ExportToXml(salesReport, XmlResultFileName);
                this.startDate.Text = "";
                this.endDate.Text = "";
@@ -92,7 +92,7 @@ namespace BottleGreen.Main
            {
                MessageBox.Show(
                    fEx.Message + Environment.NewLine
-                   + @"Date must be in format: ""YYYY.DD.MM""");
+                   + @"Date must be in format: DD.MM.YYYY");
            }
            catch (System.ArgumentException argEx)
            {
@@ -104,7 +104,7 @@ namespace BottleGreen.Main
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Process.Start("Task3.exe");
+            Process.Start(@"..\..\..\03-GeneratePdf\bin\Debug\Task3.exe");
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -157,7 +157,7 @@ namespace BottleGreen.Main
             }
             catch (FormatException fe)
             {
-                MessageBox.Show(string.Format("Enter the dates in the following format: MM/DD/YYYY\n{0}", fe.Message));
+                MessageBox.Show(string.Format("Enter the dates in the following format: DD/MM/YYYY\n{0}", fe.Message));
             }
         }
 
@@ -202,9 +202,10 @@ namespace BottleGreen.Main
 
         }
 
-        private void button_SQLiteAndMSSQLToExcel_Click(object sender, EventArgs e)
+        private void btn_SqliteToExcel_Click(object sender, EventArgs e)
         {
-            ReportToExcel.RunExcelReport(@"D:\DbApps\Team-Bottle-Green-\BottleGreen\08-SQLiteAndMySQLToExcel\Report.xlsx");
+
+            ReportToExcel.RunExcelReport();
         }
     }
 }
